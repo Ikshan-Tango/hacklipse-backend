@@ -1,25 +1,42 @@
 # Server Monitoring Tool Backend
 This repository contains the backend code for the Server Monitoring Tool. The backend is built using Django, a Python web framework, and provides RESTful API endpoints for the frontend app to communicate with.
 
+## Setup
+
+The first thing to do is to clone the repository:
+
+```sh
+$ git clone https://github.com/Ikshan-Tango/hacklipse-backend.git
+$ cd sample-django-app
+```
+
+Create a virtual environment to install dependencies in and activate it:
+
+```sh
+$ virtualenv2 --no-site-packages env
+$ source env/bin/activate
+```
+
+Then install the dependencies:
+
+```sh
+(env)$ pip install -r requirements.txt
+```
+Note the `(env)` in front of the prompt. This indicates that this terminal
+session operates in a virtual environment set up by `virtualenv2`.
+
+Once `pip` has finished downloading the dependencies:
+```sh
+(env)$ cd project
+(env)$ python manage.py runserver
+
 ## Requirements
 1. Python 3.x
 2. Django 3.x
 3. Django REST framework
 
-## Installation
-1. Clone the repository to your local machine: ``` git clone https://github.com/Ikshan-Tango/hacklipse-backend ```
-2. Install the required libraries: ``` pip install django djangorestframework```
-3. Edit the configuration file `settings.py` with your database settings:```DATABASES = {
-    'default': {
-        'ENGINE': 'django.db.backends.postgresql',
-        'NAME': 'database_name',
-        'USER': 'database_user',
-        'PASSWORD': 'database_password',
-        'HOST': 'localhost',
-        'PORT': '5432',
-    }
-}```
-4. Migrate the database: ```python manage.py migrate```
-5. Create a superuser account: ```python manage.py createsuperuser```
-6. Run the server: ```python manage.py runserver``` The server will be running on http://localhost:8000 by default.
+## Documentation of the project
 
+```sh
+[Docs](https://docs.google.com/document/d/1XG_Wq7_T-m-j6jDAyQi5NdJNsQeT9LohQUMtA1qT3E4/edit?usp=sharing)
+```
