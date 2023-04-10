@@ -36,8 +36,7 @@ Once `pip` has finished downloading the dependencies:
 3. Django REST framework
 
 ## Documentation of the project
-
+Refer to the following docs to take a deep dive into the project!
 ```sh
-[Docs](https://docs.google.com/document/d/1XG_Wq7_T-m-j6jDAyQi5NdJNsQeT9LohQUMtA1qT3E4/edit?usp=sharing)
-
+[docs](https://docs.google.com/document/d/1XG_Wq7_T-m-j6jDAyQi5NdJNsQeT9LohQUMtA1qT3E4/edit?usp=sharing).
 ```
